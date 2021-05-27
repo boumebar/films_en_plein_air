@@ -1,0 +1,66 @@
+$navbar-nav-link-padding-x : 1.5rem;
+
+@import 'bootstrap/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+
+.navbar{
+    padding: 40px 0;
+}
+nav{
+    background: rgba($color: #fff, $alpha: 0.98);
+    z-index: 100;
+}
+header .container-fluid{
+    padding-left: 0;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+.nav-link{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.logo{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+#reseaux{
+    display: flex;
+}
+#reseaux ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 140px;
+}
+#reseaux a{
+    color: #000;
+}
+#reseaux a:hover{
+    color: rgb(59, 59, 59);
+}
+#mycarousel img{
+    object-fit: cover;
+    max-height: 500px;
+}
+
+
+@media (max-width: 992px){
+  
+    #reseaux {
+        display: none;
+    }
+}
+
