@@ -16,3 +16,4 @@ Vous devrez ensuite réaliser une première maquette de ce site correspondant à
 Le projet était de faire la maquette en HTML/CSS pour un festival de films.
 
 ----- 
+ 
