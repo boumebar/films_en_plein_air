@@ -1,7 +1,7 @@
 # P3 openclassroom
 
 ## Information du projet 
-
+ 
 
 Mon projet numéro 3 de la formation ***Développeur d'application - PHP / Symfony***.
 
